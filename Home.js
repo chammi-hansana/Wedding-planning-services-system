@@ -22,6 +22,10 @@ export default function Home() {
           opacity: "0.8",
         }}
       >
+       {/* <div class="d-flex justify-content-end pt-4"  style={{ padding: "250px 200px 10px 90px" }}>
+       <button type="button" class="btn btn-danger btn-rounded btn-lg" style={{ marginRight: "30px" }}>Login</button>
+       <button type="button" class="btn btn-danger btn-rounded btn-lg" >Sign up</button>
+                </div> */}
         <div
           style={{
             textAlign: "center",
@@ -29,14 +33,16 @@ export default function Home() {
             color: "#FFFFFF",
             fontFamily: "Goudy Old Style",
           }}
-        >
+        > 
           {" "}
           <hr
             className="mt-0 mb-4"
-            style={{ padding: "250px 20px 0px 90px" }}
+            style={{ padding: "260px 20px 0px 90px" }}
           />
           <p className="mb-8">Happily Ever&nbsp; &nbsp; After Weddings</p>
         </div>
+
+       
         <div
           style={{
             backgroundImage:
