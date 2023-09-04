@@ -20,6 +20,8 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.9",
     "save": "^2.9.0",
+    "sweetalert2": "^11.7.27",
+    "sweetalert2-react-content": "^5.0.7",
     "v5": "^0.1.2",
     "web-vitals": "^2.1.4"
   },
