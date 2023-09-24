@@ -1,15 +1,16 @@
 import React from "react";
 import NavigationBar from "./Navigation/Navbar";
-import Card from "react-bootstrap/Card";
+import Card from 'react-bootstrap/Card';
 
-export default function Photographer() {
+export default function MakeupArtist() {
   return (
+    
     <div>
-      <NavigationBar />
-      <div
+    <NavigationBar />
+    <div
         style={{
           backgroundImage:
-            "url('https://eyeq.photos/wp-content/uploads/2022/06/Untitled-design-97_PerfectlyClear.jpg')",
+            "url('https://cdn0.weddingwire.com/article/1043/3_2/960/jpg/3401-1-laura-memory-photography-videography.jpeg')",
           height: "102vh",
           width: "218.5vh",
           backgroundSize: "cover",
@@ -23,14 +24,14 @@ export default function Photographer() {
         <div
           style={{
             textAlign: "center",
-            fontSize: "110px",
-            color: "#d45b6e",
+            fontSize: "140px",
+            color: "#F0F0F0",
             fontFamily: "Goudy Old Style",
           }}
         >
-          <p className="mb-8" style={{ padding: "150px 90px 0px 10px" }}>
+          <p className="mb-8" style={{ padding: "250px 40px 0px 10px" }}>
             {" "}
-            Photographer{" "}
+            Makeup Artist{" "}
           </p>
         </div>
 
@@ -58,7 +59,7 @@ export default function Photographer() {
         }}
       >
         <p className="mb-4">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wedding Photographer
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wedding Makeup Artist
         </p>
 
         <div className="row">
@@ -66,7 +67,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://thumbs.dreamstime.com/b/cheerful-blonde-amateur-making-photo-vintage-camera-enjoying-spending-time-hobby-cafe-interior-attractive-photographer-185238946.jpg"
+                src="https://images.unsplash.com/photo-1507101105822-7472b28e22ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80"
               />
             </a>
 
@@ -79,7 +80,7 @@ export default function Photographer() {
                   fontFamily: "Century Gothic",
                 }}
               >
-                Romeny Senara{" "}
+                Tina Davies{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -89,7 +90,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.40 600.00
+                Rs.20 600.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -98,7 +99,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1158&q=80"
+                src="https://images.unsplash.com/photo-1512053524184-e9eb125cde9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
               />
             </a>
 
@@ -111,7 +112,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Arjun Malik{" "}
+                Semina Silva{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -121,7 +122,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.85 000.00
+                Rs.45 000.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -129,7 +130,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1515135672-shutterstock_284581649.jpg"
+                src="https://images.unsplash.com/photo-1510594940311-ec1d5f7761b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
               />
             </a>
 
@@ -142,7 +143,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Stepheni Issabela {" "}
+                Nimani Harshana{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -152,7 +153,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.50 000.00
+                Rs.90 000.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -161,7 +162,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1594872669049-dc410962d0cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+                src="https://images.unsplash.com/photo-1565493383251-d3a136e92e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
               />
             </a>
 
@@ -174,7 +175,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Allen Perera{" "}
+                Prasad levke{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -192,7 +193,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1541654056076-0a252e083078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                src="https://images.unsplash.com/photo-1589960062943-bfb9f51756fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
               />
             </a>
 
@@ -205,7 +206,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Tania Mitchell {" "}
+                Chanisha Peiris{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -223,7 +224,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1497704009475-24f74754c24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                src="https://images.unsplash.com/photo-1480455624313-e29b44bbfde1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
               />
             </a>
 
@@ -236,7 +237,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Serena Hanz{" "}
+                Allen Lakna {" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -246,7 +247,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.70 000.00
+                Rs.55 000.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -256,14 +257,14 @@ export default function Photographer() {
         style={{
           height: "70vh",
           width: "180vh",
-          background: "#FCC8D1",
+          background: "#dbb0a0",
           margin: "60px 10px 160px 140px",
         }}
       >
         <div
           style={{
             backgroundImage:
-              "url('https://wbwp.s3.us-west-1.amazonaws.com/s3fs-public/inline-images/bride-and-bridesmaids-holding-champagne-glasses-peter-van-der-lingen-wedding-photography.jpg?VersionId=rpEUMIHplvk1EsfdTpLD7lvWtddvy_de')",
+              "url('https://d.newsweek.com/en/full/2070688/bride-getting-her-makeup-done.jpg')",
             display: "flex",
             height: "70vh",
             width: "80vh",
@@ -287,16 +288,7 @@ export default function Photographer() {
             fontFamily: "Century Gothic",
           }}
         >
-          "Capture the timeless beauty and treasured moments of your special day
-          with our exceptional wedding photographers. With an artistic eye and a
-          passion for storytelling, our talented photographers expertly craft
-          stunning visual narratives that reflect the love, joy, and emotion of
-          your wedding celebration. From intimate candid shots to breathtaking
-          portraits, we artfully document every detail, ensuring that your
-          precious memories are preserved for a lifetime. Trust in our expertise
-          and let us create a visual masterpiece that will transport you back to
-          the magic of your wedding day, every time you gaze upon our
-          captivating photographs."
+          "Unleash your inner radiance and enhance your natural beauty with the expertise of our skilled wedding makeup artists. With a keen eye for detail and a deep understanding of your unique style, our artists will create a personalized bridal look that perfectly complements your features, personality, and vision. From flawless complexions to enchanting eyes and captivating lips, we use premium products and precise techniques to ensure you feel confident and stunning on your special day. Trust in our artistry and let us transform you into the bride you've always dreamed of, leaving you with a luminous glow that will mesmerize both you and your guests."
         </p>
       </div>
 
@@ -321,5 +313,9 @@ export default function Photographer() {
         </p>
       </div>
     </div>
-  );
+   
+
+
+
+);
 }

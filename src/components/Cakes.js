@@ -2,14 +2,16 @@ import React from "react";
 import NavigationBar from "./Navigation/Navbar";
 import Card from "react-bootstrap/Card";
 
-export default function Photographer() {
+
+export default function Cakes() {
+  
   return (
     <div>
       <NavigationBar />
       <div
         style={{
           backgroundImage:
-            "url('https://eyeq.photos/wp-content/uploads/2022/06/Untitled-design-97_PerfectlyClear.jpg')",
+            "url('https://images.unsplash.com/photo-1552689486-f6773047d19f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80')",
           height: "102vh",
           width: "218.5vh",
           backgroundSize: "cover",
@@ -17,20 +19,20 @@ export default function Photographer() {
           margin: "auto",
           display: "fixed",
           backgroundPosition: "center",
-          opacity: "0.7",
+          //opacity:"0.8"
         }}
       >
         <div
           style={{
             textAlign: "center",
-            fontSize: "110px",
-            color: "#d45b6e",
+            fontSize: "115px",
+            color: "#7F669D",
             fontFamily: "Goudy Old Style",
           }}
         >
-          <p className="mb-8" style={{ padding: "150px 90px 0px 10px" }}>
+          <p className="mb-8" style={{ padding: "240px 500px 0px 10px" }}>
             {" "}
-            Photographer{" "}
+            Wedding Cakes{" "}
           </p>
         </div>
 
@@ -39,12 +41,12 @@ export default function Photographer() {
             fontSize: "14px",
             textAlign: "center",
             fontFamily: "Century Gothic",
-            padding: "1px 10px 0px 470px",
+            padding: "1px 100px 0px 150px",
             textAlign: "justify",
           }}
         >
-          Preserve your cherished memories with our expert wedding
-          photographers.{" "}
+          Unleash your sweetest desires with our unforgettable wedding cakes,
+          crafted to perfection for your special day.{" "}
         </p>
       </div>
 
@@ -58,110 +60,50 @@ export default function Photographer() {
         }}
       >
         <p className="mb-4">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wedding Photographer
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wedding Cake Category
         </p>
 
         <div className="row">
-          <Card style={{ width: "20rem", margin: "60px 50px 50px -240px" }}>
-            <a href="#">
-              <Card.Img
-                variant="top"
-                src="https://thumbs.dreamstime.com/b/cheerful-blonde-amateur-making-photo-vintage-camera-enjoying-spending-time-hobby-cafe-interior-attractive-photographer-185238946.jpg"
-              />
-            </a>
-
-            <Card.Body>
-              <Card.Title
-                style={{
-                  textAlign: "center",
-                  fontSize: "16px",
-                  color: "#454545",
-                  fontFamily: "Century Gothic",
-                }}
-              >
-                Romeny Senara{" "}
-              </Card.Title>
-              <Card.Text
-                style={{
-                  fontSize: "16px",
-                  textAlign: "center",
-                  fontFamily: "Century Gothic",
-                  fontWeight: "bold",
-                }}
-              >
-                Rs.40 600.00
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          <Card style={{ width: "20rem", margin: "60px 50px 50px 80px" }}>
-            <a href="#">
-              <Card.Img
-                variant="top"
-                src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1158&q=80"
-              />
-            </a>
-
-            <Card.Body>
-              <Card.Title
-                style={{
-                  fontSize: "16px",
-                  color: "#454545",
-                  fontFamily: "Century Gothic",
-                  textAlign: "center",
-                }}
-              >
-                Arjun Malik{" "}
-              </Card.Title>
-              <Card.Text
-                style={{
-                  fontSize: "16px",
-                  textAlign: "center",
-                  fontFamily: "Century Gothic",
-                  fontWeight: "bold",
-                }}
-              >
-                Rs.85 000.00
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "20rem", margin: "60px 50px 50px 80px" }}>
-            <a href="#">
-              <Card.Img
-                variant="top"
-                src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1515135672-shutterstock_284581649.jpg"
-              />
-            </a>
-
-            <Card.Body>
-              <Card.Title
-                style={{
-                  fontSize: "16px",
-                  color: "#454545",
-                  fontFamily: "Century Gothic",
-                  textAlign: "center",
-                }}
-              >
-                Stepheni Issabela {" "}
-              </Card.Title>
-              <Card.Text
-                style={{
-                  fontSize: "16px",
-                  textAlign: "center",
-                  fontFamily: "Century Gothic",
-                  fontWeight: "bold",
-                }}
-              >
-                Rs.50 000.00
-              </Card.Text>
-            </Card.Body>
-          </Card>
+        
+     
 
           <Card style={{ width: "20rem", margin: "60px 50px 50px -240px" }}>
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1594872669049-dc410962d0cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+                src="https://cdn.shopify.com/s/files/1/0512/8378/7930/products/2021-01-0617.35.55_460x.jpg?v=1609925868"
+              />
+            </a>
+
+            <Card.Body>
+              <Card.Title
+                style={{
+                  textAlign: "center",
+                  fontSize: "16px",
+                  color: "#454545",
+                  fontFamily: "Century Gothic",
+                }}
+              >
+                Rustic Floral Berries Cake{" "}
+              </Card.Title>
+              <Card.Text
+                style={{
+                  fontSize: "16px",
+                  textAlign: "center",
+                  fontFamily: "Century Gothic",
+                  fontWeight: "bold",
+                }}
+              >
+                Rs.10600.00
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: "20rem", margin: "60px 50px 50px 80px" }}>
+            <a href="#">
+              <Card.Img
+                variant="top"
+                src="https://cdn.shopify.com/s/files/1/0512/8378/7930/products/IMG_18072_460x.jpg?v=1635252425"
               />
             </a>
 
@@ -174,7 +116,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Allen Perera{" "}
+                Semi-Naked Rustic Floral Cake{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -184,7 +126,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.44 000.00
+                Rs.8500.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -192,7 +134,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1541654056076-0a252e083078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                src="https://cdn.shopify.com/s/files/1/0512/8378/7930/products/IMG_5449_460x.jpg?v=1639579617"
               />
             </a>
 
@@ -205,7 +147,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Tania Mitchell {" "}
+                Blooming Minimalist Floral Cake{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -215,7 +157,39 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.62 000.00
+                Rs.9200.00
+              </Card.Text>
+            </Card.Body>
+          </Card>
+
+          <Card style={{ width: "20rem", margin: "60px 50px 50px -240px" }}>
+            <a href="#">
+              <Card.Img
+                variant="top"
+                src="https://cdn.shopify.com/s/files/1/0512/8378/7930/products/IMG_9319_460x.jpg?v=1625494641"
+              />
+            </a>
+
+            <Card.Body>
+              <Card.Title
+                style={{
+                  fontSize: "16px",
+                  color: "#454545",
+                  fontFamily: "Century Gothic",
+                  textAlign: "center",
+                }}
+              >
+                Preserved Rustic Floral Cake{" "}
+              </Card.Title>
+              <Card.Text
+                style={{
+                  fontSize: "16px",
+                  textAlign: "center",
+                  fontFamily: "Century Gothic",
+                  fontWeight: "bold",
+                }}
+              >
+                Rs.4400.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -223,7 +197,7 @@ export default function Photographer() {
             <a href="#">
               <Card.Img
                 variant="top"
-                src="https://images.unsplash.com/photo-1497704009475-24f74754c24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                src="https://cdn.shopify.com/s/files/1/0512/8378/7930/products/31F0F56E-8C27-4341-9E53-6F7E0EC069C3_460x.jpg?v=1635348306"
               />
             </a>
 
@@ -236,7 +210,7 @@ export default function Photographer() {
                   textAlign: "center",
                 }}
               >
-                Serena Hanz{" "}
+                Peach x Bloom of Flowers Cake{" "}
               </Card.Title>
               <Card.Text
                 style={{
@@ -246,7 +220,7 @@ export default function Photographer() {
                   fontWeight: "bold",
                 }}
               >
-                Rs.70 000.00
+                Rs.6200.00
               </Card.Text>
             </Card.Body>
           </Card>
@@ -256,24 +230,24 @@ export default function Photographer() {
         style={{
           height: "70vh",
           width: "180vh",
-          background: "#FCC8D1",
+          background: "#DBDFEA",
           margin: "60px 10px 160px 140px",
         }}
       >
         <div
           style={{
             backgroundImage:
-              "url('https://wbwp.s3.us-west-1.amazonaws.com/s3fs-public/inline-images/bride-and-bridesmaids-holding-champagne-glasses-peter-van-der-lingen-wedding-photography.jpg?VersionId=rpEUMIHplvk1EsfdTpLD7lvWtddvy_de')",
+              "url('https://southbendweddingcakes.com/uploads/3/5/5/0/35502635/frontpagewebsite2_orig.jpg')",
             display: "flex",
             height: "70vh",
-            width: "80vh",
+            width: "70vh",
             backgroundSize: "cover",
             //opacity:"0.8",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             marginTop: "10px",
 
-            
+            //position: "fixed",
           }}
         ></div>
 
@@ -282,21 +256,20 @@ export default function Photographer() {
             width: "80vh",
             color: "#343a40",
             textAlign: "justify",
-            margin: "-380px 30px 40px 630px",
-            fontSize: "16px",
+            margin: "-380px 40px 40px 600px",
+            fontSize: "18px",
             fontFamily: "Century Gothic",
           }}
         >
-          "Capture the timeless beauty and treasured moments of your special day
-          with our exceptional wedding photographers. With an artistic eye and a
-          passion for storytelling, our talented photographers expertly craft
-          stunning visual narratives that reflect the love, joy, and emotion of
-          your wedding celebration. From intimate candid shots to breathtaking
-          portraits, we artfully document every detail, ensuring that your
-          precious memories are preserved for a lifetime. Trust in our expertise
-          and let us create a visual masterpiece that will transport you back to
-          the magic of your wedding day, every time you gaze upon our
-          captivating photographs."
+          "Welcome to a world of confectionery artistry and delectable delights.
+          Our wedding cakes are meticulously handcrafted to transform your
+          dreams into a scrumptious reality. With exquisite attention to detail,
+          every tier, every texture, and every flavor is expertly tailored to
+          reflect your unique style and celebrate the sweetness of your love
+          story. Indulge in a culinary masterpiece that will not only captivate
+          your taste buds but also leave a lasting impression on your guests.
+          Elevate your wedding celebration with a cake that is a true work of
+          edible art, where every slice is a moment of pure bliss."
         </p>
       </div>
 
